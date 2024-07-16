@@ -1,0 +1,23 @@
+{
+  "name": "terminator",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env dist/index.js",
+    "start:dev": "ts-node --env-file=.env src/index.ts",
+    "build": "tsc"
+  },
+  "author": "Taha Mansoor",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^20.14.10",
+    "@types/node-fetch": "^2.6.11",
+    "@types/ws": "^8.5.11",
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.15.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
